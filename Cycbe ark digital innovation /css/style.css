@@ -664,3 +664,38 @@
 }
 
 /*** Footer End ***/
+
+
+/* ==========================================
+   CYCBE ARK CUSTOM BRAND COLORS
+   ========================================== */
+:root {
+    --bs-primary: #003366 !important; /* Your Brand Blue */
+    --bs-secondary: #D4AF37 !important; /* Your Brand Gold */
+}
+
+/* Force Green Backgrounds to Gold */
+.bg-secondary,
+.btn-secondary,
+.text-bg-secondary {
+    background-color: #D4AF37 !important;
+    border-color: #D4AF37 !important;
+    color: #ffffff !important;
+}
+
+/* Force Green Text to Gold */
+.text-secondary {
+    color: #D4AF37 !important;
+}
+
+/* Force Green Borders to Gold */
+.border-secondary {
+    border-color: #D4AF37 !important;
+}
+
+/* Make Buttons look good when you hover over them */
+.btn-secondary:hover {
+    background-color: #B8860B !important; /* A slightly darker gold */
+    border-color: #B8860B !important;
+    color: #ffffff !important;
+}
