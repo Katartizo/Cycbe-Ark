@@ -35,18 +35,17 @@ $grays: (
 // scss-docs-end gray-colors-map
 // fusv-enable
 
-// scss-docs-start color-variables
-$blue:    #0d6efd !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
-$teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
-// scss-docs-end color-variables
+// scss-docs-start theme-color-variables
+$primary: #003366 !default; // Changed to CYCBE ARK Navy Blue
+$secondary: #FFD700 !default; // Changed to CYCBE ARK Gold
+$success: $green !default; // Leaves the "Success" form validation as green
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+// scss-docs-end theme-color-variables
+
 
 // scss-docs-start colors-map
 $colors: (
